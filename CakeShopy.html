@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shopy</title>
+    <style>
+        .header {
+            background-color: rgb(101, 133, 46);
+            height: 80px;
+        }
+        
+        img {
+            width: 50px;
+            word-spacing: 10px;
+            padding: 2px;
+            border-radius: 50%;
+        }
+        
+        .header i {
+            font-style: bold;
+            font-size: 19px;
+        }
+        
+        input {
+            width: 200px;
+            height: 40px;
+        }
+        
+        #icon {
+            border: 2px;
+            left: 1250px;
+            word-spacing: 10px;
+            position: absolute;
+            top: 40px;
+            size: 200px;
+            cursor: pointer;
+            color: white;
+        }
+        
+        .header div .icon :hover {
+            color: black;
+        }
+        
+        .header .nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+        
+        ul li a {
+            margin-inline: 40px;
+            font-size: 20px;
+            justify-content: center;
+        }
+        
+        #navbar {
+            background-color: rgb(138, 173, 76);
+        }
+        
+        div nav ul :hover {
+            color: white;
+            cursor: pointer;
+        }
+        
+        div.container {
+            height: 320px;
+            width: 260px;
+            border: 0px solid black;
+            float: left;
+            margin: 30px;
+            /*box-shadow: 0.1rem 0.1rem black;*/
+            /*outline: .1rem solid #cccccc;*/
+            /*outline-offset: -.1rem;*/
+            cursor: pointer;
+            background: white;
+        }
+        
+        div.container:hover {
+            /*outline: .1rem solid black;*/
+            outline-offset: 0rem;
+        }
+        
+        div#first img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#first img:hover {
+            transform: scale(.9);
+        }
+        
+        div#second img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#second img:hover {
+            transform: scale(.9);
+        }
+        
+        div#third img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#third img:hover {
+            transform: scale(.9);
+        }
+        
+        div#fourth img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#fourth img:hover {
+            transform: scale(.9);
+        }
+        
+        div#fifth img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#fifth img:hover {
+            transform: scale(.9);
+        }
+        
+        div#sixth img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#sixth img:hover {
+            transform: scale(.9);
+        }
+        
+        div#seventh img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#seventh img:hover {
+            transform: scale(.9);
+        }
+        
+        div#eighth img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        div#eighth img:hover {
+            transform: scale(.9);
+        }
+        
+        div#first div#one li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#second div#two li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#third div#three li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#fourth div#four li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#fifth div#five li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#sixth div#six li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#seventh div#seven li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        div#eighth div#eight li {
+            justify-content: center;
+            list-style: none;
+            margin-left: 50px;
+        }
+        
+        footer .container {
+            width: 1290px;
+            height: 200px;
+            background-color: black;
+        }
+        
+        footer .container h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+            color: white;
+        }
+        
+        footer .container p {
+            margin-left: 200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            font-style: inherit;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="/img/Cake logo.jpg"><i>Cake Shopy</i>
+        <input type="search" placeholder="Search Cakes">
+
+        <div id="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg>
+        </div>
+        <div id="navbar">
+            <nav class="navbar">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>Varieties</a></li>
+                    <li><a>Order</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Review</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br><br><br>
+    <div class="container" id="first">
+        <img src="/img/Butterscotch.jpg">
+        <div id="one">
+            <li style="font: bold;">Butterscotch Cake</li>
+            <li>Price: 350 rs</li>
+        </div>
+    </div>
+    <div class="container" id="second">
+        <img src="/img/Black-Forest-Cake.jpg">
+        <div id="two">
+            <li style="font: bold;">Black Forest Cake</li>
+            <li>Price: 370 rs</li>
+        </div>
+    </div>
+    <div class="container" id="third">
+        <img src="/img/Brownies.jpg">
+        <div id="three">
+            <li style="font: bold;">Chocolate Brownie (6 pcs)</li>
+            <li>Price: 120 rs</li>
+        </div>
+    </div>
+    <div class="container" id="fourth">
+        <img src="/img/Truffle cake.jpg">
+        <div id="four">
+            <li style="font: bold;">Truffle Cake</li>
+            <li>Price: 350 rs</li>
+        </div>
+    </div>
+    <div class="container" id="fifth">
+        <img src="/img/fruit cake.jpg">
+        <div id="five">
+            <li style="font: bold;">Fruit Cake</li>
+            <li>Price: 750 rs</li>
+        </div>
+    </div>
+    <div class="container" id="sixth">
+        <img src="/img/rose-paradise-cake.jpg">
+        <div id="six">
+            <li style="font: bold;">Rose Paradise Cake</li>
+            <li>Price: 350 rs</li>
+        </div>
+    </div>
+    <div class="container" id="seventh">
+        <img src="/img/Cheese cake.webp">
+        <div id="seven">
+            <li style="font: bold;">Blueberry Cheese Cake (Slice)</li>
+            <li>Price: 135 rs</li>
+        </div>
+    </div>
+    <div class="container" id="eighth">
+        <img src="/img/rasmalai cake.jpg">
+        <div id="eight">
+            <li style="font: bold;">Rasmalai Cake</li>
+            <li>Price: 470 rs</li>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <p>Name:Sanskruti Wankhede</p>
+            <p>Mobile No.: +91 9876756454</p>
+        </div>
+    </footer>
+</body>
+
+</html>
